@@ -9,10 +9,6 @@ S /Users/azenov/Home/Programming/Projects/JS/Study/rescript-react-counter/node_m
 B /Users/azenov/Home/Programming/Projects/JS/Study/rescript-react-counter/node_modules/@rescript/react/lib/ocaml
 S src
 B lib/bs/src
-S src/components/Counter
-B lib/bs/src/components/Counter
-S src/components/CounterTitle
-B lib/bs/src/components/CounterTitle
-S src/components/CounterButton
-B lib/bs/src/components/CounterButton
+S src/components
+B lib/bs/src/components
 ####BSB GENERATED: NO EDIT}
