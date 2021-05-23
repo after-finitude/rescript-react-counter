@@ -7,13 +7,10 @@ module Title = {
   }
 }
 
-module ButtonGroup = {
+module Button = {
   @react.component
-  let make = (~inc, ~dec) => {
-    <div className="Counter-button-container">
-      <button className="Counter-button" onClick={inc}> {React.string("+")} </button>
-      <button className="Counter-button" onClick={dec}> {React.string("-")} </button>
-    </div>
+  let make = (~title, ~onClick) => {
+    <button className="Counter-button" onClick={onClick}> {React.string(title)} </button>
   }
 }
 
@@ -24,5 +21,10 @@ let make = () => {
   let inc = _ => setCounter(counter => counter + 1)
   let dec = _ => setCounter(counter => counter - 1)
 
-  <div className="Counter-container"> <Title counter /> <ButtonGroup inc dec /> </div>
+  <div className="Counter-container">
+    <Title counter />
+    <div className="Counter-button-container">
+      <Button title="+" onClick={inc} /> <Button title="-" onClick={dec} />
+    </div>
+  </div>
 }
