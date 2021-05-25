@@ -20,11 +20,14 @@ let make = () => {
 
   let inc = _ => setCounter(counter => counter + 1)
   let dec = _ => setCounter(counter => counter - 1)
+  let reset = _ => setCounter(_ => 0)
 
   <div className={CounterStyles.container}>
     <CounterTitle counter />
     <div className={CounterStyles.buttonContainer}>
-      <CounterButton title="+" onClick={inc} /> <CounterButton title="-" onClick={dec} />
+      <CounterButton title="+" onClick={inc} />
+      <CounterButton title="-" onClick={dec} />
+      <CounterButton title="Reset" onClick={reset} />
     </div>
   </div>
 }

@@ -5,6 +5,9 @@ module CounterButtonStyles = {
     "width": "50px",
     "height": "50px",
     "marginRight": "10px",
+    "&:last-child": {
+      "marginRight": "0px",
+    },
   })
 }
 
