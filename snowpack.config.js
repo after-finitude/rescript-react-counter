@@ -6,16 +6,8 @@ module.exports = {
   },
   exclude: ['**/*.{res,resi}'],
   plugins: ['@snowpack/plugin-react-refresh', '@jihchi/plugin-rescript'],
-  packageOptions: {
-    /* ... */
-  },
-  devOptions: {
-    /* ... */
-  },
-  buildOptions: {
-    /* ... */
-  },
-  alias: {
-    /* ... */
+  optimize: {
+    bundle: true,
+    minify: true,
   },
 };
