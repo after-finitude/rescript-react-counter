@@ -1,0 +1,225 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-ae389540.js": {
+      "bytes": 8994,
+      "imports": []
+    },
+    "_snowpack/pkg/react.js": {
+      "bytes": 1591,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-ae389540.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-ae389540.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-dom.js": {
+      "bytes": 128629,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-ae389540.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/curry-dd33ed00.js": {
+      "bytes": 12118,
+      "imports": []
+    },
+    "_snowpack/pkg/common/caml_option-f59fd915.js": {
+      "bytes": 1393,
+      "imports": []
+    },
+    "_snowpack/pkg/rescript/lib/es6/belt_Option.js": {
+      "bytes": 2204,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/curry-dd33ed00.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/caml_option-f59fd915.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/rescript/lib/es6/caml_option.js": {
+      "bytes": 204,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/caml_option-f59fd915.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@emotion/css.js": {
+      "bytes": 29806,
+      "imports": []
+    },
+    "_snowpack/pkg/rescript/lib/es6/curry.js": {
+      "bytes": 214,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/curry-dd33ed00.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Counter/CounterTitle.bs.js": {
+      "bytes": 321,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Counter/CounterButton.bs.js": {
+      "bytes": 765,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@emotion/css.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Counter/Counter.bs.js": {
+      "bytes": 2167,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/rescript/lib/es6/curry.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@emotion/css.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Counter/CounterTitle.bs.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Counter/CounterButton.bs.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.bs.js": {
+      "bytes": 389,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Counter/Counter.bs.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.bs.js": {
+      "bytes": 1328,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/rescript/lib/es6/belt_Option.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/rescript/lib/es6/caml_option.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@emotion/css.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.bs.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.bs.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "dist/index.bs.js",
+      "inputs": {
+        "_snowpack/env.js": {
+          "bytesInOutput": 100
+        },
+        "_snowpack/pkg/common/index-ae389540.js": {
+          "bytesInOutput": 7155
+        },
+        "_snowpack/pkg/react.js": {
+          "bytesInOutput": 493
+        },
+        "_snowpack/pkg/react-dom.js": {
+          "bytesInOutput": 124138
+        },
+        "_snowpack/pkg/common/curry-dd33ed00.js": {
+          "bytesInOutput": 739
+        },
+        "_snowpack/pkg/common/caml_option-f59fd915.js": {
+          "bytesInOutput": 385
+        },
+        "_snowpack/pkg/rescript/lib/es6/belt_Option.js": {
+          "bytesInOutput": 87
+        },
+        "_snowpack/pkg/rescript/lib/es6/caml_option.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/@emotion/css.js": {
+          "bytesInOutput": 14468
+        },
+        "_snowpack/pkg/rescript/lib/es6/curry.js": {
+          "bytesInOutput": 0
+        },
+        "dist/components/Counter/CounterTitle.bs.js": {
+          "bytesInOutput": 78
+        },
+        "dist/components/Counter/CounterButton.bs.js": {
+          "bytesInOutput": 216
+        },
+        "dist/components/Counter/Counter.bs.js": {
+          "bytesInOutput": 530
+        },
+        "dist/App.bs.js": {
+          "bytesInOutput": 59
+        },
+        "dist/index.bs.js": {
+          "bytesInOutput": 483
+        }
+      },
+      "bytes": 149076
+    }
+  }
+}
