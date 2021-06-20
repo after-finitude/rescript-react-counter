@@ -41,6 +41,6 @@ yarn-error.log*
 # bucklescript
 /lib
 /types
-.merlin
 *.bs.js
+.merlin
 .bsb.lock
