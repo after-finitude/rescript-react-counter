@@ -13,7 +13,7 @@
   "devDependencies": {
     "@jihchi/plugin-rescript": "^1.0.0",
     "@snowpack/plugin-react-refresh": "^2.5.0",
-    "rescript": "^9.1.2",
-    "snowpack": "~3.0"
+    "rescript": "^9.1.4",
+    "snowpack": "^3.5.9"
   }
 }

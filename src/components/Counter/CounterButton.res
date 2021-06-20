@@ -12,11 +12,16 @@ module CounterButtonStyles = {
 }
 
 @react.component
-let make = (~title: option<string>=?, ~onClick) => {
+let make = (~title: option<string>=?, ~onClick: option<ReactEvent.Mouse.t => unit>=?) => {
   let title = switch title {
-  | Some(title) => React.string(title)
-  | None => React.string("Button")
+  | Some(title) => title->React.string
+  | None => "Button"->React.string
   }
 
-  <button className={CounterButtonStyles.button} onClick={onClick}> title </button>
+  let onClick = switch onClick {
+  | Some(onClick) => onClick
+  | None => _ => ()
+  }
+
+  <button className={CounterButtonStyles.button} onClick> title </button>
 }

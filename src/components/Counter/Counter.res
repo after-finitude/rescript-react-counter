@@ -1,14 +1,14 @@
 module CounterStyles = {
   open Emotion.Css
 
-  let container = css({
+  let componentContainer = css({
     "display": "flex",
     "alignItems": "center",
     "justifyContent": "center",
     "flexDirection": "column",
   })
 
-  let buttonContainer = css({
+  let buttonGroupContainer = css({
     "display": "flex",
     "flexDirection": "row",
   })
@@ -22,12 +22,12 @@ let make = () => {
   let dec = _ => setCounter(counter => counter - 1)
   let reset = _ => setCounter(_ => 0)
 
-  <div className={CounterStyles.container}>
+  <div className={CounterStyles.componentContainer}>
     <CounterTitle counter />
-    <div className={CounterStyles.buttonContainer}>
+    <CounterButtonGroup>
       <CounterButton title="+" onClick={inc} />
       <CounterButton title="-" onClick={dec} />
       <CounterButton title="Reset" onClick={reset} />
-    </div>
+    </CounterButtonGroup>
   </div>
 }

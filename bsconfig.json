@@ -1,8 +1,6 @@
 {
   "name": "rescript-react-counter",
   "reason": { "react-jsx": 3 },
-  "refmt": 3,
-  "bsc-flags": ["-bs-super-errors"],
   "sources": [
     {
       "dir": "src",
@@ -14,5 +12,6 @@
   "namespace": true,
   "bs-dependencies": ["@rescript/react"],
   "bs-dev-dependencies": [],
+  "bsc-flags": ["-bs-super-errors"],
   "ppx-flags": []
 }

@@ -1,4 +1,4 @@
 @react.component
-let make = (~counter) => {
-  <h1> {React.string("Counter: ")} {React.int(counter)} </h1>
+let make = (~counter: int) => {
+  <h1> {"Counter: "->React.string} {counter->React.int} </h1>
 }
