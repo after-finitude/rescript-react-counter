@@ -7,11 +7,6 @@ module CounterStyles = {
     "justifyContent": "center",
     "flexDirection": "column",
   })
-
-  let buttonGroupContainer = css({
-    "display": "flex",
-    "flexDirection": "row",
-  })
 }
 
 @react.component
